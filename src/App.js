@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SmartWatch from "./recommended/SmartWatch";
 import Advertising from "./advertising-banner/Advertising";
 import NewCollection from "./newcollection/NewCollection";
+import Trending from "./trending/Trending";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <SmartWatch />
       <Advertising />
       <NewCollection />
+      <Advertising />
+      <Trending />
     </>
   );
 }

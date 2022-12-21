@@ -171,6 +171,10 @@ body {
       img {
         width: 100%;
         object-fit: cover;
+        transition: 0.5s ease;
+        &:hover {
+          transform: scale(1.2);
+        }
       }
     }
   }
@@ -212,6 +216,10 @@ body {
       width: 100%;
       object-fit: cover;
       border-radius: 10px;
+      transition: 0.5s ease;
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     p {
@@ -250,6 +258,11 @@ body {
       color: #302f2f;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
+      transition: 0.5s ease;
+      &:hover {
+        background-color: #707070;
+        color: #ffffff;
+      }
     }
   }
 }
@@ -284,6 +297,12 @@ body {
         padding: 20px 50px;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
+        transition: 0.3s ease;
+
+        &:hover {
+          background-color: #777;
+          color: #ffffff;
+        }
       }
     }
   }
@@ -294,6 +313,10 @@ body {
   .card-image {
     width: 100%;
     object-fit: cover;
+    transition: 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   .card-body {
@@ -366,6 +389,10 @@ body {
   .cardContent-image {
     width: 100%;
     object-fit: cover;
+    transition: 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   .cardContent-footer {
@@ -417,6 +444,85 @@ body {
       border-radius: 5px;
       font-weight: 500;
       color: #302f2f;
+      transition: 0.5s ease;
+      &:hover {
+        background-color: #707070;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+// trending this week
+.trending {
+  padding: 50px 0;
+
+  .pageTitles {
+    text-align: center;
+    padding: 30px 0;
+
+    p {
+      margin: 0;
+      text-transform: uppercase;
+      color: #302f2f;
+      font-family: "Roboto", sans-serif;
+    }
+
+    h4 {
+      margin: 0;
+      text-transform: uppercase;
+      color: #111111;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+    }
+  }
+
+  .trendingcard {
+    border: none;
+    cursor: pointer;
+  }
+
+  .trendingheader {
+    text-align: center;
+    overflow: hidden;
+    border-bottom: none;
+    border-radius: 10px;
+  }
+
+  .trendingimage {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .trendingcol {
+    margin: 0 0 25px;
+  }
+
+  .trendingbody {
+    padding: 10px;
+
+    .TrendingWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .TrendingName {
+      margin: 0;
+      font-weight: 700;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .TrendingPrice {
+      background-color: #fff0e9;
+      color: #ff4f04;
+      padding: 7px 20px;
+      border-radius: 50px;
+      font-weight: 700;
     }
   }
 }

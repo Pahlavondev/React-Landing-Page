@@ -1,5 +1,5 @@
 import React from "react";
-import SmartWatches from "./JSON/SmartWatches.json";
+import SmartWatches from "../JSON/SmartWatches.json";
 
 const SmartWatch = () => {
   return (
