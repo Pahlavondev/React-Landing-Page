@@ -6,6 +6,7 @@ import Home from "./HomePage/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SmartWatch from "./recommended/SmartWatch";
 import Advertising from "./advertising-banner/Advertising";
+import NewCollection from "./newcollection/NewCollection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Home />
       <SmartWatch />
       <Advertising />
+      <NewCollection />
     </>
   );
 }

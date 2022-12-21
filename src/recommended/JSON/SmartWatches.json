@@ -1,24 +1,24 @@
 [
   {
-    "img": "/watch1.jpg",
+    "img": "/watch1.png",
     "name": "Single Tour",
     "price": "$990"
   },
 
   {
-    "img": "/watch2.jpg",
+    "img": "/watch2.png",
     "name": "Single Tour",
     "price": "$990"
   },
 
   {
-    "img": "/watch1.jpg",
+    "img": "/watch1.png",
     "name": "Single Tour",
     "price": "$990"
   },
 
   {
-    "img": "/watch2.jpg",
+    "img": "/watch2.png",
     "name": "Single Tour",
     "price": "$990"
   }

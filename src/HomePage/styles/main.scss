@@ -288,3 +288,135 @@ body {
     }
   }
 }
+
+//new collection
+.newCollection {
+  .card-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .card-footer {
+    background-color: transparent;
+    border-top: none;
+  }
+
+  .cardWrapper-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    p {
+      margin: 0;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    span {
+      background-color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      color: #ff4f04;
+      font-weight: 700;
+    }
+  }
+
+  .productPrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      background-color: #000000;
+      padding: 5px 15px;
+      color: #ffffff;
+      font-weight: 600;
+      border-radius: 20px;
+      font-family: "Roboto", sans-serif;
+
+      &:nth-child(2) {
+        background-color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: #ff4f04;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .cardsContent {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .cardContent-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .cardContent-footer {
+    padding: 0 30px;
+    background-color: transparent;
+  }
+
+  .productName {
+    margin: 0;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .productBrand {
+    margin: 0;
+    color: #7a7a7a;
+    font-weight: 500;
+  }
+
+  .newCollectionWrapper {
+    text-align: center;
+    padding: 50px 0 25px 0;
+    p {
+      margin: 0;
+      text-transform: uppercase;
+      font-family: "Roboto", sans-serif;
+      color: #302f2f;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      margin: 0;
+      font-weight: 700;
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      color: #111111;
+    }
+  }
+
+  .newCollection-button {
+    text-align: center;
+    padding: 50px 0;
+    .exploreBtnProducts {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid #707070;
+      padding: 20px 30px;
+      border-radius: 5px;
+      font-weight: 500;
+      color: #302f2f;
+    }
+  }
+}
