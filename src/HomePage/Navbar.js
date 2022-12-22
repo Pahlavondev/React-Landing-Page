@@ -9,8 +9,8 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-        <a href="#" className="nav-logo">
-          <img src={navLogo} alt="Navbar Logo" />
+        <a className="nav-logo" href="#">
+          <img className="nav-image" src={navLogo} alt="Navbar Logo" />
         </a>
 
         <div className="searchSection">

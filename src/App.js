@@ -8,6 +8,7 @@ import SmartWatch from "./recommended/SmartWatch";
 import Advertising from "./advertising-banner/Advertising";
 import NewCollection from "./newcollection/NewCollection";
 import Trending from "./trending/Trending";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <NewCollection />
       <Advertising />
       <Trending />
+      <Advertising />
+      <Footer />
     </>
   );
 }
