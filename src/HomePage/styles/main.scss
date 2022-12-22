@@ -198,10 +198,6 @@ body {
       img {
         width: 100%;
         object-fit: cover;
-        transition: 0.5s ease;
-        &:hover {
-          transform: scale(1.2);
-        }
       }
     }
   }
